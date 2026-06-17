@@ -3,6 +3,7 @@
    ========================================================= */
 
 /* ---------- AUTH ---------- */
+console.log("MENU JS LOADED");
 const Auth = {
   ADMIN_USER: "admin",
   ADMIN_PASS: "campus2026",
