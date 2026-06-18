@@ -930,3 +930,105 @@ footer {
   object-fit:cover;
   display:block;
 }
+
+
+/* =========================
+   ADMIN DASHBOARD MOBILE
+========================= */
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.95rem;
+    }
+
+    /* Tabs */
+    .admin-tabs {
+        display: flex;
+        width: 100%;
+    }
+
+    .tab-btn {
+        flex: 1;
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 12px;
+    }
+
+    /* Add Event Button */
+    .actions-bar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .actions-bar .btn {
+        width: 100%;
+    }
+
+    /* Tables */
+    .table-container {
+        overflow-x: auto;
+        width: 100%;
+    }
+
+    table {
+        min-width: 900px;
+    }
+
+    th,
+    td {
+        font-size: 0.85rem;
+        padding: 10px;
+    }
+
+    /* Forms */
+    .form-card {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        width: 100%;
+    }
+
+    /* Dashboard Cards */
+    .info-card,
+    .event-card,
+    .feature-card {
+        width: 100%;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    /* Logo */
+    .logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .logo {
+        font-size: 1.1rem;
+    }
+
+    /* Logout Button */
+    .logout-btn,
+    .btn-outline {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
